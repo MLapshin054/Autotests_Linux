@@ -6,9 +6,9 @@ with open('config.yaml') as f:
 
 class TestNegative:
     def test_nstep1(self, make_bad_arx, log_statistic):
-        assert checkout_negative("cd {}; 7z e arxbad.7z -o{} -y".format(data["folder_out"], data["folder_ext"]),
+        assert checkout_negative("cd {}; 7z e arxbad.{} -o{} -y".format(data["folder_out"], data["type"], data["folder_ext"]),
                                  "ERROR:"), "test1 FAIL"
 
 
     def test_nstep2(self, make_bad_arx, log_statistic):
-        assert checkout_negative("cd {}; 7z t arxbad.7z".format(data["folder_out"]), "ERROR:"), "test2 FAIL"
+        assert checkout_negative("cd {}; 7z t arxbad.{}".format(data["folder_out"], data["type"]), "ERROR:"), "test2 FAIL"

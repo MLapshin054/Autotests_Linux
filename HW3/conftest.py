@@ -47,10 +47,10 @@ def make_subfolder():
 
 @pytest.fixture()
 def make_bad_arx():
-    checkout("cd {}; 7z a {}/arxbad".format(data["folder_in"], data["folder_out"]), "Everything is Ok")
-    checkout("truncate -s 1 {}/arxbad.7z".format(data["folder_out"]), "")
+    checkout("cd {}; 7z a {}/arxbad -t{}".format(data["folder_in"], data["folder_out"], data["type"]), "Everything is Ok")
+    checkout("truncate -s 1 {}/arxbad.{}".format(data["folder_out"], data["type"]), "")
     yield "arxbad"
-    checkout("rm -f {}/arxbad.7z".format(data["folder_out"]), "")
+    checkout("rm -f {}/arxbad.{}".format(data["folder_out"], data["type"]), "")
 
 
 @pytest.fixture(autouse=True)
