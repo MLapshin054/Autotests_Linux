@@ -4,3 +4,4 @@ folder_ext: /home/urban/folder1
 folder_ext2: /home/urban/folder2
 count: 5
 bs: 1M
+type: zip

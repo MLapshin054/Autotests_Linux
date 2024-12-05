@@ -6,3 +6,13 @@
 14-11-55-105395, 5, 1M, 0.94 1.08 1.05 3/676 17709
 14-11-55-145165, 5, 1M, 0.94 1.08 1.05 2/676 17721
 14-11-55-658943, 5, 1M, 0.95 1.08 1.05 2/676 17763
+current_time='14-19-05-472272', count_of_files=5, size_of_files='1M', loadavg_stats='0.93 0.74 0.88 3/674 17926'
+current_time='14-19-06-581527', count_of_files=5, size_of_files='1M', loadavg_stats='0.94 0.74 0.88 2/674 17954'
+current_time='14-19-06-626963', count_of_files=5, size_of_files='1M', loadavg_stats='0.94 0.74 0.88 2/674 17966'
+current_time='14-19-09-792875', count_of_files=5, size_of_files='1M', loadavg_stats='0.94 0.74 0.88 2/674 17980'
+current_time='14-19-10-922046', count_of_files=5, size_of_files='1M', loadavg_stats='1.10 0.78 0.89 3/674 18006'
+current_time='14-19-13-411496', count_of_files=5, size_of_files='1M', loadavg_stats='1.10 0.78 0.89 7/674 18049'
+current_time='14-19-13-561946', count_of_files=5, size_of_files='1M', loadavg_stats='1.10 0.78 0.89 6/674 18061'
+current_time='14-19-14-537533', count_of_files=5, size_of_files='1M', loadavg_stats='1.10 0.78 0.89 2/674 18105'
+current_time='14-19-15-819239', count_of_files=5, size_of_files='1M', loadavg_stats='1.09 0.78 0.90 2/675 18124'
+current_time='14-19-17-948029', count_of_files=5, size_of_files='1M', loadavg_stats='1.09 0.78 0.90 5/675 18144'

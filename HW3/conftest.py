@@ -69,7 +69,7 @@ def log_statistic(make_files):
     with open('/proc/loadavg', 'r') as loadavg_file:
         loadavg_stats = loadavg_file.read().strip()
     current_time = datetime.now().strftime("%H-%M-%S-%f")
-    log_entry = f'{current_time}, {count_of_files}, {size_of_files}, {loadavg_stats}\n'
+    log_entry = f'{current_time=}, {count_of_files=}, {size_of_files=}, {loadavg_stats=}\n'
 
     with open(stat_file_path, 'a') as stat_file:
         stat_file.write(log_entry)
