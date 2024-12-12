@@ -1,0 +1,11 @@
+ip: 0.0.0.0
+user: user_autotest
+passwd: "111"
+pkgname: p7zip-full
+folder_in: /home/user_autotest/test
+folder_out: /home/user_autotest/out
+folder_ext: /home/user_autotest/folder1
+folder_ext2: /home/user_autotest/folder2
+count: 3
+bs: 1M
+type: zip
