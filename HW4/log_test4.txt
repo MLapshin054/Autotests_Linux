@@ -1,0 +1,44 @@
+дек 12 18:33:01 urban-gb sshd[42301]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:01 urban-gb systemd[1]: session-804.scope: Deactivated successfully.
+дек 12 18:33:01 urban-gb systemd-logind[781]: Session 804 logged out. Waiting for processes to exit.
+дек 12 18:33:01 urban-gb systemd-logind[781]: Removed session 804.
+дек 12 18:33:01 urban-gb sshd[42343]: Accepted password for user_autotest from 127.0.0.1 port 47010 ssh2
+дек 12 18:33:01 urban-gb sshd[42343]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:33:01 urban-gb systemd-logind[781]: New session 805 of user user_autotest.
+дек 12 18:33:01 urban-gb snapd-desktop-i[41641]: Detected new session 805 at /org/freedesktop/login1/session/_3805
+дек 12 18:33:01 urban-gb systemd[1]: Started Session 805 of User user_autotest.
+дек 12 18:33:01 urban-gb sshd[42343]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:01 urban-gb systemd[1]: session-805.scope: Deactivated successfully.
+дек 12 18:33:01 urban-gb systemd-logind[781]: Session 805 logged out. Waiting for processes to exit.
+дек 12 18:33:01 urban-gb systemd-logind[781]: Removed session 805.
+дек 12 18:33:01 urban-gb sshd[42387]: Accepted password for user_autotest from 127.0.0.1 port 47018 ssh2
+дек 12 18:33:01 urban-gb sshd[42387]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:33:01 urban-gb systemd-logind[781]: New session 806 of user user_autotest.
+дек 12 18:33:01 urban-gb snapd-desktop-i[41641]: Detected new session 806 at /org/freedesktop/login1/session/_3806
+дек 12 18:33:01 urban-gb systemd[1]: Started Session 806 of User user_autotest.
+дек 12 18:33:01 urban-gb CRON[42430]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+дек 12 18:33:01 urban-gb CRON[42433]: (root) CMD (mkdir /home/urban/crontab_dir; date > /home/urban/crontab_dir/ct_file)
+дек 12 18:33:01 urban-gb CRON[42430]: (CRON) info (No MTA installed, discarding output)
+дек 12 18:33:01 urban-gb CRON[42430]: pam_unix(cron:session): session closed for user root
+дек 12 18:33:01 urban-gb sshd[42387]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:01 urban-gb systemd[1]: session-806.scope: Deactivated successfully.
+дек 12 18:33:01 urban-gb systemd-logind[781]: Session 806 logged out. Waiting for processes to exit.
+дек 12 18:33:01 urban-gb systemd-logind[781]: Removed session 806.
+дек 12 18:33:01 urban-gb sshd[42429]: Accepted password for user_autotest from 127.0.0.1 port 47030 ssh2
+дек 12 18:33:01 urban-gb sshd[42429]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:33:01 urban-gb systemd-logind[781]: New session 808 of user user_autotest.
+дек 12 18:33:01 urban-gb snapd-desktop-i[41641]: Detected new session 808 at /org/freedesktop/login1/session/_3808
+дек 12 18:33:01 urban-gb systemd[1]: Started Session 808 of User user_autotest.
+дек 12 18:33:02 urban-gb sshd[42429]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:02 urban-gb systemd[1]: session-808.scope: Deactivated successfully.
+дек 12 18:33:02 urban-gb systemd-logind[781]: Session 808 logged out. Waiting for processes to exit.
+дек 12 18:33:02 urban-gb systemd-logind[781]: Removed session 808.
+дек 12 18:33:02 urban-gb sshd[42475]: Accepted password for user_autotest from 127.0.0.1 port 47032 ssh2
+дек 12 18:33:02 urban-gb sshd[42475]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:33:02 urban-gb systemd-logind[781]: New session 809 of user user_autotest.
+дек 12 18:33:02 urban-gb snapd-desktop-i[41641]: Detected new session 809 at /org/freedesktop/login1/session/_3809
+дек 12 18:33:02 urban-gb systemd[1]: Started Session 809 of User user_autotest.
+дек 12 18:33:02 urban-gb sshd[42475]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:02 urban-gb systemd[1]: session-809.scope: Deactivated successfully.
+дек 12 18:33:02 urban-gb systemd-logind[781]: Session 809 logged out. Waiting for processes to exit.
+дек 12 18:33:02 urban-gb systemd-logind[781]: Removed session 809.

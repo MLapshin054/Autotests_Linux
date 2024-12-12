@@ -1,0 +1,92 @@
+дек 12 18:32:53 urban-gb sshd[41467]: Accepted password for user_autotest from 127.0.0.1 port 48132 ssh2
+дек 12 18:32:53 urban-gb sshd[41467]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:32:53 urban-gb systemd[1]: Created slice User Slice of UID 1001.
+дек 12 18:32:53 urban-gb systemd[1]: Starting User Runtime Directory /run/user/1001...
+дек 12 18:32:53 urban-gb systemd-logind[781]: New session 786 of user user_autotest.
+дек 12 18:32:53 urban-gb systemd[1]: Finished User Runtime Directory /run/user/1001.
+дек 12 18:32:53 urban-gb systemd[1]: Starting User Manager for UID 1001...
+дек 12 18:32:53 urban-gb systemd[41471]: pam_unix(systemd-user:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:32:53 urban-gb systemd[41471]: Queued start job for default target Main User Target.
+дек 12 18:32:53 urban-gb systemd[41471]: Created slice User Application Slice.
+дек 12 18:32:53 urban-gb systemd[41471]: Created slice User Core Session Slice.
+дек 12 18:32:53 urban-gb systemd[41471]: Started Pending report trigger for Ubuntu Report.
+дек 12 18:32:53 urban-gb systemd[41471]: Reached target Paths.
+дек 12 18:32:53 urban-gb systemd[41471]: Reached target Timers.
+дек 12 18:32:53 urban-gb systemd[41471]: Starting D-Bus User Message Bus Socket...
+дек 12 18:32:53 urban-gb systemd[41471]: Listening on GnuPG network certificate management daemon.
+дек 12 18:32:53 urban-gb systemd[41471]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+дек 12 18:32:53 urban-gb systemd[41471]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+дек 12 18:32:53 urban-gb systemd[41471]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+дек 12 18:32:53 urban-gb systemd[41471]: Listening on GnuPG cryptographic agent and passphrase cache.
+дек 12 18:32:53 urban-gb systemd[41471]: Listening on PipeWire Multimedia System Socket.
+дек 12 18:32:53 urban-gb systemd[41471]: Listening on debconf communication socket.
+дек 12 18:32:53 urban-gb systemd[41471]: Listening on Sound System.
+дек 12 18:32:53 urban-gb systemd[41471]: Listening on REST API socket for snapd user session agent.
+дек 12 18:32:53 urban-gb systemd[41471]: Listening on Speech Dispatcher Socket.
+дек 12 18:32:53 urban-gb systemd[41471]: Listening on D-Bus User Message Bus Socket.
+дек 12 18:32:53 urban-gb systemd[41471]: Reached target Sockets.
+дек 12 18:32:53 urban-gb systemd[41471]: Reached target Basic System.
+дек 12 18:32:53 urban-gb systemd[1]: Started User Manager for UID 1001.
+дек 12 18:32:53 urban-gb systemd[1]: Started Session 786 of User user_autotest.
+дек 12 18:32:53 urban-gb systemd[41471]: Started PipeWire Multimedia Service.
+дек 12 18:32:53 urban-gb systemd[41471]: Started PipeWire Media Session Manager.
+дек 12 18:32:53 urban-gb systemd[41471]: Starting Sound Service...
+дек 12 18:32:53 urban-gb systemd[41471]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+дек 12 18:32:53 urban-gb rtkit-daemon[3869]: Supervising 5 threads of 3 processes of 1 users.
+дек 12 18:32:53 urban-gb rtkit-daemon[3869]: Supervising 5 threads of 3 processes of 2 users.
+дек 12 18:32:53 urban-gb pipewire[41479]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+дек 12 18:32:53 urban-gb pipewire[41479]: mod.rt: could not set nice-level to -11: Отказано в доступе
+дек 12 18:32:54 urban-gb systemd[41471]: Started D-Bus User Message Bus.
+дек 12 18:32:54 urban-gb rtkit-daemon[3869]: Supervising 5 threads of 3 processes of 2 users.
+дек 12 18:32:54 urban-gb pipewire-media-session[41480]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+дек 12 18:32:54 urban-gb pipewire-media-session[41480]: mod.rt: could not make thread 41513 realtime using RTKit: Отказано в доступе
+дек 12 18:32:54 urban-gb sshd[41467]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:32:54 urban-gb systemd[1]: session-786.scope: Deactivated successfully.
+дек 12 18:32:54 urban-gb systemd-logind[781]: Session 786 logged out. Waiting for processes to exit.
+дек 12 18:32:54 urban-gb systemd-logind[781]: Removed session 786.
+дек 12 18:32:54 urban-gb dbus-daemon[41533]: [session uid=1001 pid=41533] AppArmor D-Bus mediation is enabled
+дек 12 18:32:54 urban-gb dbus-daemon[41533]: [session uid=1001 pid=41533] Activating systemd to hand-off: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.0' (uid=1001 pid=41482 comm="/usr/bin/snap run snapd-desktop-integration " label="unconfined")
+дек 12 18:32:54 urban-gb dbus-daemon[41533]: [session uid=1001 pid=41533] Successfully activated service 'org.freedesktop.systemd1'
+дек 12 18:32:54 urban-gb rtkit-daemon[3869]: Supervising 5 threads of 3 processes of 2 users.
+дек 12 18:32:54 urban-gb systemd[41471]: Starting flatpak document portal service...
+дек 12 18:32:54 urban-gb sshd[41534]: Accepted password for user_autotest from 127.0.0.1 port 46904 ssh2
+дек 12 18:32:54 urban-gb dbus-daemon[41533]: [session uid=1001 pid=41533] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.4' (uid=1001 pid=41539 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+дек 12 18:32:54 urban-gb dbus-daemon[750]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.2036' (uid=1001 pid=41481 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+дек 12 18:32:54 urban-gb systemd[1]: Condition check resulted in Bluetooth service being skipped.
+дек 12 18:32:54 urban-gb sshd[41534]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:32:54 urban-gb systemd[41471]: Starting sandboxed app permission store...
+дек 12 18:32:54 urban-gb dbus-daemon[41533]: [session uid=1001 pid=41533] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+дек 12 18:32:54 urban-gb systemd[41471]: Started sandboxed app permission store.
+дек 12 18:32:54 urban-gb systemd-logind[781]: New session 788 of user user_autotest.
+дек 12 18:32:54 urban-gb dbus-daemon[41533]: [session uid=1001 pid=41533] Successfully activated service 'org.freedesktop.portal.Documents'
+дек 12 18:32:54 urban-gb systemd[41471]: Started flatpak document portal service.
+дек 12 18:32:54 urban-gb systemd[1]: Started Session 788 of User user_autotest.
+дек 12 18:32:54 urban-gb rtkit-daemon[3869]: Supervising 5 threads of 3 processes of 2 users.
+дек 12 18:32:54 urban-gb pipewire[41479]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+дек 12 18:32:54 urban-gb pipewire[41479]: mod.rt: could not make thread 41540 realtime using RTKit: Отказано в доступе
+дек 12 18:32:54 urban-gb sudo[41614]: user_autotest : PWD=/home/user_autotest ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user_autotest/p7zip-full.deb
+дек 12 18:32:54 urban-gb sudo[41614]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+дек 12 18:32:54 urban-gb rtkit-daemon[3869]: Supervising 5 threads of 3 processes of 2 users.
+дек 12 18:32:54 urban-gb rtkit-daemon[3869]: Supervising 5 threads of 3 processes of 2 users.
+дек 12 18:32:54 urban-gb rtkit-daemon[3869]: Supervising 5 threads of 3 processes of 2 users.
+дек 12 18:32:54 urban-gb rtkit-daemon[3869]: Supervising 5 threads of 3 processes of 2 users.
+дек 12 18:32:54 urban-gb systemd[41471]: Started Sound Service.
+дек 12 18:32:54 urban-gb systemd[41471]: Reached target Main User Target.
+дек 12 18:32:54 urban-gb systemd[41471]: Startup finished in 1.498s.
+дек 12 18:32:54 urban-gb snapd-desktop-i[41641]: Failed to do gtk init. Waiting for a new session with desktop capabilities.
+дек 12 18:32:54 urban-gb snapd-desktop-i[41641]: Checking session /org/freedesktop/login1/session/_3788...
+дек 12 18:32:54 urban-gb snapd-desktop-i[41641]: Checking session /org/freedesktop/login1/session/_32...
+дек 12 18:32:55 urban-gb sudo[41614]: pam_unix(sudo:session): session closed for user root
+дек 12 18:32:55 urban-gb sshd[41534]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:32:55 urban-gb systemd[1]: session-788.scope: Deactivated successfully.
+дек 12 18:32:55 urban-gb systemd-logind[781]: Session 788 logged out. Waiting for processes to exit.
+дек 12 18:32:55 urban-gb systemd-logind[781]: Removed session 788.
+дек 12 18:32:55 urban-gb sshd[41661]: Accepted password for user_autotest from 127.0.0.1 port 46906 ssh2
+дек 12 18:32:55 urban-gb sshd[41661]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:32:55 urban-gb systemd-logind[781]: New session 789 of user user_autotest.
+дек 12 18:32:55 urban-gb snapd-desktop-i[41641]: Detected new session 789 at /org/freedesktop/login1/session/_3789
+дек 12 18:32:55 urban-gb systemd[1]: Started Session 789 of User user_autotest.
+дек 12 18:32:56 urban-gb sudo[41702]: user_autotest : PWD=/home/user_autotest ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+дек 12 18:32:56 urban-gb sudo[41702]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+дек 12 18:32:56 urban-gb sudo[41702]: pam_unix(sudo:session): session closed for user root
+дек 12 18:32:56 urban-gb sshd[41661]: pam_unix(sshd:session): session closed for user user_autotest

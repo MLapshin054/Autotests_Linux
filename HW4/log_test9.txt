@@ -1,0 +1,100 @@
+дек 12 18:33:13 urban-gb sshd[43835]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:13 urban-gb systemd[1]: session-841.scope: Deactivated successfully.
+дек 12 18:33:13 urban-gb systemd-logind[781]: Session 841 logged out. Waiting for processes to exit.
+дек 12 18:33:13 urban-gb systemd-logind[781]: Removed session 841.
+дек 12 18:33:13 urban-gb sshd[43878]: Accepted password for user_autotest from 127.0.0.1 port 38956 ssh2
+дек 12 18:33:13 urban-gb sshd[43878]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:33:13 urban-gb systemd-logind[781]: New session 842 of user user_autotest.
+дек 12 18:33:13 urban-gb snapd-desktop-i[41641]: Detected new session 842 at /org/freedesktop/login1/session/_3842
+дек 12 18:33:13 urban-gb systemd[1]: Started Session 842 of User user_autotest.
+дек 12 18:33:13 urban-gb sshd[43878]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:13 urban-gb systemd[1]: session-842.scope: Deactivated successfully.
+дек 12 18:33:13 urban-gb systemd-logind[781]: Session 842 logged out. Waiting for processes to exit.
+дек 12 18:33:13 urban-gb systemd-logind[781]: Removed session 842.
+дек 12 18:33:13 urban-gb sshd[43919]: Accepted password for user_autotest from 127.0.0.1 port 36264 ssh2
+дек 12 18:33:13 urban-gb sshd[43919]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:33:13 urban-gb systemd-logind[781]: New session 843 of user user_autotest.
+дек 12 18:33:13 urban-gb snapd-desktop-i[41641]: Detected new session 843 at /org/freedesktop/login1/session/_3843
+дек 12 18:33:13 urban-gb systemd[1]: Started Session 843 of User user_autotest.
+дек 12 18:33:13 urban-gb sshd[43919]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:13 urban-gb systemd[1]: session-843.scope: Deactivated successfully.
+дек 12 18:33:13 urban-gb systemd-logind[781]: Session 843 logged out. Waiting for processes to exit.
+дек 12 18:33:13 urban-gb systemd-logind[781]: Removed session 843.
+дек 12 18:33:13 urban-gb sshd[43961]: Accepted password for user_autotest from 127.0.0.1 port 36272 ssh2
+дек 12 18:33:13 urban-gb sshd[43961]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:33:13 urban-gb systemd-logind[781]: New session 844 of user user_autotest.
+дек 12 18:33:13 urban-gb snapd-desktop-i[41641]: Detected new session 844 at /org/freedesktop/login1/session/_3844
+дек 12 18:33:13 urban-gb systemd[1]: Started Session 844 of User user_autotest.
+дек 12 18:33:14 urban-gb sshd[43961]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:14 urban-gb systemd[1]: session-844.scope: Deactivated successfully.
+дек 12 18:33:14 urban-gb systemd-logind[781]: Session 844 logged out. Waiting for processes to exit.
+дек 12 18:33:14 urban-gb systemd-logind[781]: Removed session 844.
+дек 12 18:33:14 urban-gb sshd[44004]: Accepted password for user_autotest from 127.0.0.1 port 36288 ssh2
+дек 12 18:33:14 urban-gb sshd[44004]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:33:14 urban-gb systemd-logind[781]: New session 845 of user user_autotest.
+дек 12 18:33:14 urban-gb snapd-desktop-i[41641]: Detected new session 845 at /org/freedesktop/login1/session/_3845
+дек 12 18:33:14 urban-gb systemd[1]: Started Session 845 of User user_autotest.
+дек 12 18:33:14 urban-gb sshd[44004]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:14 urban-gb systemd[1]: session-845.scope: Deactivated successfully.
+дек 12 18:33:14 urban-gb systemd-logind[781]: Session 845 logged out. Waiting for processes to exit.
+дек 12 18:33:14 urban-gb systemd-logind[781]: Removed session 845.
+дек 12 18:33:14 urban-gb sshd[44045]: Accepted password for user_autotest from 127.0.0.1 port 36294 ssh2
+дек 12 18:33:14 urban-gb sshd[44045]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:33:14 urban-gb systemd-logind[781]: New session 846 of user user_autotest.
+дек 12 18:33:14 urban-gb snapd-desktop-i[41641]: Detected new session 846 at /org/freedesktop/login1/session/_3846
+дек 12 18:33:14 urban-gb systemd[1]: Started Session 846 of User user_autotest.
+дек 12 18:33:14 urban-gb sshd[44045]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:14 urban-gb systemd[1]: session-846.scope: Deactivated successfully.
+дек 12 18:33:14 urban-gb systemd-logind[781]: Session 846 logged out. Waiting for processes to exit.
+дек 12 18:33:14 urban-gb systemd-logind[781]: Removed session 846.
+дек 12 18:33:14 urban-gb sshd[44088]: Accepted password for user_autotest from 127.0.0.1 port 36300 ssh2
+дек 12 18:33:14 urban-gb sshd[44088]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:33:15 urban-gb systemd-logind[781]: New session 847 of user user_autotest.
+дек 12 18:33:15 urban-gb snapd-desktop-i[41641]: Detected new session 847 at /org/freedesktop/login1/session/_3847
+дек 12 18:33:15 urban-gb systemd[1]: Started Session 847 of User user_autotest.
+дек 12 18:33:15 urban-gb sshd[44088]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:15 urban-gb systemd[1]: session-847.scope: Deactivated successfully.
+дек 12 18:33:15 urban-gb systemd-logind[781]: Session 847 logged out. Waiting for processes to exit.
+дек 12 18:33:15 urban-gb systemd-logind[781]: Removed session 847.
+дек 12 18:33:15 urban-gb sshd[44130]: Accepted password for user_autotest from 127.0.0.1 port 36302 ssh2
+дек 12 18:33:15 urban-gb sshd[44130]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:33:15 urban-gb systemd-logind[781]: New session 848 of user user_autotest.
+дек 12 18:33:15 urban-gb systemd[1]: Started Session 848 of User user_autotest.
+дек 12 18:33:15 urban-gb snapd-desktop-i[41641]: Detected new session 848 at /org/freedesktop/login1/session/_3848
+дек 12 18:33:15 urban-gb sshd[44130]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:15 urban-gb systemd[1]: session-848.scope: Deactivated successfully.
+дек 12 18:33:15 urban-gb systemd-logind[781]: Session 848 logged out. Waiting for processes to exit.
+дек 12 18:33:15 urban-gb systemd-logind[781]: Removed session 848.
+дек 12 18:33:15 urban-gb sshd[44172]: Accepted password for user_autotest from 127.0.0.1 port 36306 ssh2
+дек 12 18:33:15 urban-gb sshd[44172]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:33:15 urban-gb systemd-logind[781]: New session 849 of user user_autotest.
+дек 12 18:33:15 urban-gb snapd-desktop-i[41641]: Detected new session 849 at /org/freedesktop/login1/session/_3849
+дек 12 18:33:15 urban-gb systemd[1]: Started Session 849 of User user_autotest.
+дек 12 18:33:15 urban-gb sshd[44172]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:15 urban-gb systemd[1]: session-849.scope: Deactivated successfully.
+дек 12 18:33:15 urban-gb systemd-logind[781]: Session 849 logged out. Waiting for processes to exit.
+дек 12 18:33:15 urban-gb systemd-logind[781]: Removed session 849.
+дек 12 18:33:16 urban-gb sshd[44214]: Accepted password for user_autotest from 127.0.0.1 port 36310 ssh2
+дек 12 18:33:16 urban-gb sshd[44214]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:33:16 urban-gb systemd-logind[781]: New session 850 of user user_autotest.
+дек 12 18:33:16 urban-gb snapd-desktop-i[41641]: Detected new session 850 at /org/freedesktop/login1/session/_3850
+дек 12 18:33:16 urban-gb systemd[1]: Started Session 850 of User user_autotest.
+дек 12 18:33:16 urban-gb sshd[44214]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:16 urban-gb systemd[1]: session-850.scope: Deactivated successfully.
+дек 12 18:33:16 urban-gb systemd-logind[781]: Session 850 logged out. Waiting for processes to exit.
+дек 12 18:33:16 urban-gb systemd-logind[781]: Removed session 850.
+дек 12 18:33:16 urban-gb sshd[44255]: Accepted password for user_autotest from 127.0.0.1 port 36324 ssh2
+дек 12 18:33:16 urban-gb sshd[44255]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:33:16 urban-gb systemd-logind[781]: New session 851 of user user_autotest.
+дек 12 18:33:16 urban-gb snapd-desktop-i[41641]: Detected new session 851 at /org/freedesktop/login1/session/_3851
+дек 12 18:33:16 urban-gb systemd[1]: Started Session 851 of User user_autotest.
+дек 12 18:33:16 urban-gb sshd[44255]: pam_unix(sshd:session): session closed for user user_autotest
+дек 12 18:33:16 urban-gb systemd[1]: session-851.scope: Deactivated successfully.
+дек 12 18:33:16 urban-gb systemd-logind[781]: Session 851 logged out. Waiting for processes to exit.
+дек 12 18:33:16 urban-gb systemd-logind[781]: Removed session 851.
+дек 12 18:33:16 urban-gb sshd[44298]: Accepted password for user_autotest from 127.0.0.1 port 36326 ssh2
+дек 12 18:33:16 urban-gb sshd[44298]: pam_unix(sshd:session): session opened for user user_autotest(uid=1001) by (uid=0)
+дек 12 18:33:16 urban-gb systemd-logind[781]: New session 852 of user user_autotest.
+дек 12 18:33:16 urban-gb snapd-desktop-i[41641]: Detected new session 852 at /org/freedesktop/login1/session/_3852
+дек 12 18:33:16 urban-gb systemd[1]: Started Session 852 of User user_autotest.
+дек 12 18:33:16 urban-gb sshd[44298]: pam_unix(sshd:session): session closed for user user_autotest
